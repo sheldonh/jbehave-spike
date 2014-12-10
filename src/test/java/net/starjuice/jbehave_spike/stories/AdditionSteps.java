@@ -4,9 +4,8 @@ import org.jbehave.core.annotations.Aliases;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import org.jbehave.core.steps.Steps;
 
-public class AdditionSteps extends Steps {
+public class AdditionSteps {
 
     /**
      * The {@link ImperativeAdditionTestProvider} to delegate test activity to.
