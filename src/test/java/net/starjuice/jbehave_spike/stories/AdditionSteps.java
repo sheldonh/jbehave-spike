@@ -13,8 +13,9 @@ public class AdditionSteps {
     ImperativeAdditionTestProvider testProvider;
 
     /**
-     * Allows the {@link AdditionSteps#testProvider} will be injected.
+     * Allows the {@link AdditionSteps#testProvider} to be injected.
      */
+    @SuppressWarnings("unused")
     public AdditionSteps() {
     }
 
